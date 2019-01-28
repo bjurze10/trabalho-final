@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial';
+    background-color: #000000
+}
+
+header {
+    height: 90px;
+    color: white;
+    background: rgb(0, 43, 161);
+    display: grid;
+    padding: 0px 40px 0px 40px;
+    grid-template-columns: 2fr 1fr;
+}
+
+.h-right img {
+    width: 50px;
+}
+
+.h-left {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.h-right {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.h-left h1 {
+    font-size: 35px;
+}
+
+.h-left span {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+section {
+    margin: 50px 40px 50px 40px;
+}
+
+section h2 {
+    background-color: rgb(0, 43, 161);
+    color: white;
+    padding: 15px 20px 15px 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+
+section h3 {
+    background-color: rgb(0, 43, 161);
+    color: white;
+    padding: 15px 20px 15px 20px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.red {
+    background: rgb(0, 43, 161);
+    color: white;
+    padding: 15px 20px 15px 20px;
+    min-height: 150px;
+}
+
+a {
+    color: inherit;
+    margin-left: 15px;
+    text-decoration: none;
+}
